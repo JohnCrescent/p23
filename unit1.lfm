@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = 239
+  Height = 198
+  Top = 159
+  Width = 224
+  Caption = 'Form1'
+  ClientHeight = 198
+  ClientWidth = 224
+  LCLVersion = '1.4.2.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 40
+    Width = 59
+    Caption = 'Zadaj číslo:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 104
+    Height = 23
+    Top = 40
+    Width = 80
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 56
+    Height = 25
+    Top = 88
+    Width = 107
+    Caption = 'Je prvočíslo?'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end
